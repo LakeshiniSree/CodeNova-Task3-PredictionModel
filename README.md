@@ -106,6 +106,8 @@ predictive usefulness, not causation.
 - outputs/model_comparison.csv: model evaluation results.
 - outputs/feature_importance.csv: feature-importance results.
 
+- The trained Random Forest model is saved locally as `models/best_air_quality_model.joblib`. Because the file exceeds GitHub's browser upload limit, it is not included in this repository upload. Run the notebook to retrain the model and generate the saved file.
+
 ## 12. Limitations and Assumptions
 - Missing sensor readings may affect prediction quality.
 - Median imputation assumes the median is a reasonable replacement
